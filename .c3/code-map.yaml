@@ -1,0 +1,25 @@
+c3-101:
+  - backend/decorators/auth.py
+  - backend/endpoints/auth.py
+  - backend/endpoints/client_tokens.py
+  - backend/handler/auth/**
+c3-102:
+  - backend/config/__init__.py
+c3-110:
+  - backend/endpoints/responses/rom*.py
+  - backend/endpoints/roms/**
+  - backend/handler/database/roms_handler.py
+  - backend/handler/filesystem/roms_handler.py
+  - backend/models/rom.py
+c3-201:
+  - frontend/src/RomM.vue
+  - frontend/src/main.ts
+  - frontend/src/plugins/**
+  - frontend/src/views/**
+ref-fastapi-router:
+  - backend/endpoints/**
+  - backend/main.py
+rule-strong-typing:
+  - backend/**/*.py
+  - frontend/src/**/*.ts
+  - frontend/src/**/*.vue

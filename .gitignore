@@ -68,3 +68,6 @@ switch_product_ids.json
 
 # AI tools
 .claude
+
+# C3 disposable cache (rebuilt from .c3/**/*.md)
+.c3/c3.db
